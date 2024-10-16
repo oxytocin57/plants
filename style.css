@@ -1,0 +1,395 @@
+body {
+    margin: 0;
+    font-family: "Cormorant", sans-serif;
+}
+
+header {
+    background: #1D2F30;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.header__container {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left button:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.header__left button {
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+header button {
+    border: none;
+    background: none;
+}
+
+.header__middle ul {
+    list-style-type: none;
+    display: flex;
+    gap: 64px;
+}
+
+
+a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.header__right {
+    display: flex;
+    gap: 64px;
+}
+
+.start-screen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.start-screen__image {
+    background: url("img/start-screen.png");
+    height: 550px;
+    background-size: cover;
+    width: 100%;
+
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+
+}
+
+.start-screen__content {
+    position: absolute;
+    top: 0;
+}
+
+.start-screen__image_opacity {
+    background: #1D2F30;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    top: 0;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start-screen__content_size h1 {
+    max-width: 688px;
+    width: 100%;
+}
+
+.start-screen__content_size p {
+    max-width: 533px;
+    width: 100%;
+}
+
+.start-screen__content p {
+    font-size: 16px;
+    color: white;
+}
+
+.start-screen__content p:last-child {
+    color: #BAE249;
+}
+
+.start-screen__content_size {
+    margin: 115px 165px;
+}
+
+.main {
+    padding: 60px 0;
+    background: #1D2F30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-list {
+    display: flex;
+    gap: 30px;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.card__top {
+    background: #0B1919;
+    padding: 30px 16px;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 255px;
+    width: 100%;
+}
+
+.card__top img:first-child {
+    position: absolute;
+    top: 16px;
+}
+
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #0B1919;
+    padding: 16px 16px 16px 24px;
+}
+
+.card__bottom h3 {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__bottom p {
+    margin: 8px 0 16px 0;
+    color: #899D9D;
+    font-weight: 400;
+}
+
+.button {
+    width: fit-content;
+    margin-top: auto;
+    background: none;
+    border: 1px solid #BAE249;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.button:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.button span {
+    display: block;
+    color: #BAE249;
+    padding: 11px 29px;
+}
+
+.pagination {
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+
+}
+
+.pagination button {
+    background: none;
+    border: none;
+}
+
+.pagination span {
+    color: white;
+    font-size: 24px;
+    line-height: 13px;
+}
+
+.arrow-rotate {
+transform: rotate(180deg);
+}
+
+.pagination button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.artifacts {
+    margin-top: 57px;
+}
+
+.artifacts h2 {
+    color: white;
+    font-size: 48px;
+    line-height: 48px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+}
+
+.artifacts_card {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0 60px 0;
+}
+
+.artifacts_information {
+    background: #BAE249;
+    padding: 16px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.artifacts_card img {
+    width: 825px;
+
+}
+
+.artifacts_information h3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #1D2F30;
+    margin: 0;
+}
+
+.artifacts_information p {
+    color: #506829;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 8px 0 16px 0;
+    font-weight: 400;
+}
+
+.artifacts__information-continue {
+    display: flex;
+    margin-top: auto;
+}
+
+.artifacts__information-continue p {
+    color: #0B1919;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.artifacts__information-continue button{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-screen{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.footer-screen__image{
+    background: url("img/footer-screen.png") no-repeat;
+    height: 463px;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer-screen__opacity{
+    background: #1D2F30;
+    opacity: 0.7;
+    height: 463px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.footer-screen__row{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+}
+input{
+    height: 45px;
+    box-sizing: border-box;
+}
+.footer-screen__button{
+    background: #BAE249;
+}
+
+.footer-screen__button span{
+    color: #0B1919;
+    line-height: 21.79px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-screen__content h3{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0;
+    color: white;
+}
+
+.footer-screen__content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin: 0;
+    width: 825px;
+}
+
+.footer-screen__content{
+    position: absolute;
+    top: 0;
+    gap: 24px;
+    padding: 31px 0;
+}
+.footer-icons{
+    background: #0B1919;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.footer-icons img:hover{
+scale: 1.25;
+    transition: scale 0.3s;
+}
+.footer-icons img{
+scale: 1;
+    transition: scale 0.3s;
+    cursor: pointer;
+}
+.footer-copyright{
+    background: #1D2F30;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    align-items: center;
+}
+.footer-copyright p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+color: #899D9D;
+}
